@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import { Toaster } from './components/ui/toaster'
@@ -16,11 +16,11 @@ const App = () => (
         <div className='min-h-screen bg-background'>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route path='/' element={<Home />} />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </div>
       </TooltipProvider>
     </QueryClientProvider>

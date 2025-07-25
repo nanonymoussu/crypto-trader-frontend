@@ -82,7 +82,7 @@ const Home = () => {
         >
           <div className='glass rounded-xl overflow-hidden'>
             <img
-              src='./assets/crypto-trader-hero.png'
+              src='/crypto-trader-frontend/assets/crypto-trader-hero.png'
               alt='CryptoTrade Dashboard'
               className='w-full h-auto'
             />
@@ -108,7 +108,7 @@ const Home = () => {
         <div
           className='absolute inset-0 opacity-40'
           style={{
-            backgroundImage: 'url("./assets/matrix-background.jpg")',
+            backgroundImage: 'url("/crypto-trader-frontend/assets/matrix-background.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
